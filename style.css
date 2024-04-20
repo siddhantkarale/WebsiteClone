@@ -1002,6 +1002,10 @@
 
     }
 
+    #main7div2text{
+        font-size: 25px;
+    }
+
    
 }
 
@@ -1018,20 +1022,6 @@
 
    
 }
-
-@media (max-width: 748px) {
-
-    /* .dropdown-content a{
-        width: 550px;
-    }
-
-    .dropbtn{
-        width: 550px;
-    } */
-
-
-   
-} 
 
 @media (max-width: 415px) {
 
