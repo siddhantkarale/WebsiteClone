@@ -1,0 +1,170 @@
+/* Bootstarp media query */
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    height: 56px;
+    background-color: #34D49A82;
+    border-radius: 10px;    
+}
+
+#mainheading{
+    background-image: linear-gradient(129deg, #2bc495, #0c8b83);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#middlerow{
+    background-color: wheat;
+    height: 500px;
+}
+
+#middleleftdiv{
+    background-color: aqua;
+}
+
+
+#middlerightdiv{
+    background-color: blue;
+}
+
+.dropdowndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .main5gridbox{
+        height: 150px;
+    }
+
+    .gridbox{
+        height: 180px;
+    }
+
+    #trainerinfoouter{
+        height: 350px;
+
+    }
+
+
+
+} 
+
+@media (max-width: 576px) {
+
+    .main5gridbox{
+        height: 90px;
+    }
+
+    .gridbox{
+        height: 150px;
+        font-size: 15px;
+    }
+
+    .main3div-content{
+        font-size: 15px;
+    }
+
+    #main4text{
+        font-size: 25px;
+    }
+
+    #trainerinfoouter{
+        height: 550px;
+
+    }
+
+    #main6text3{
+        font-size: 20px;
+    }
+
+    #main6text2{
+        font-size: 20px;
+    }
+
+    #main7left{
+        height: 450px;
+    }
+
+    .dropbtn{
+        width: 400px;
+    }
+
+    .dropdown-content a{
+        width: 400px;
+
+    }
+
+} 
+
+@media (max-width: 640px) {
+
+    #trainerinfoouter{
+        height: 450px;
+
+    }
+
+    .dropbtn{
+        width: 440px;
+    }
+
+    .dropdown-content a{
+        width: 440px;
+
+    }
+
+   
+}
+
+@media (max-width: 440px) {
+
+    .dropbtn{
+        width: 300px;
+    }
+
+    .dropdown-content a{
+        width: 300px;
+
+    }
+
+   
+}
+
+@media (max-width: 748px) {
+
+    /* .dropdown-content a{
+        width: 550px;
+    }
+
+    .dropbtn{
+        width: 550px;
+    } */
+
+
+   
+} 
+
+@media (max-width: 415px) {
+
+    #trainerinfoouter{
+        height: 500px;
+
+    }
+
+    #main7left{
+        height: 500px;
+    }
+
+    
+
+} 
+
+
+
