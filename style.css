@@ -4,72 +4,24 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* #main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 
 #Whatsapp {
     height: 27px;
     width: 25px;
 }
 
-/* #heading {
-    font-size: 50px;
-} */
-
 #one {
     height: 56px;
-    /* width: 40%; */
     background-color: #34D49A82;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     border-radius: 10px;
 }
 
-#one p{
+#one p {
     margin-top: 10px;
 }
 
 #one p {
     font-size: 20px;
-}
-
-#middle {
-    /* margin-top: 70px;
-    display: flex; */
-    /* width: 843px; */
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-}
-
-#heading{
-    /* height: 150px;
-    background-image: linear-gradient(129deg, #2bc495, #0c8b83);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
-}
-
-#main1 {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%; */
-    height: 1200px;
-    background-color: #c8eadf;
-    /* flex-wrap: wrap; */
 }
 
 .DateOfferPrice {
@@ -125,7 +77,6 @@
     align-items: center;
     justify-content: center;
     height: 88px;
-    /* width: 458px; */
     background-color: white;
     border-radius: 10px;
     font-size: 18px;
@@ -183,7 +134,6 @@
 }
 
 #company {
-    /* width: 436px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -223,7 +173,6 @@
     z-index: 1;
     top: 100%;
     background-color: #c8eadf;
-    /* font-size: 28px; */
     transform: translate(-50%, -50%);
 }
 
@@ -245,8 +194,6 @@
 }
 
 #right-offer-photo img {
-    /* width: 350px;
-    height: 250px; */
     width: 100%;
     height: 150%;
     border-radius: 20px;
@@ -276,12 +223,6 @@
     margin-bottom: 70px;
 }
 
-/* @media only screen and (max-width:945px){
-    #partners{
-        width: 140px;
-    }
-} */
-
 #partnerstext {
     display: flex;
     flex-direction: row;
@@ -293,7 +234,6 @@
     z-index: 1;
     top: 0%;
     background-color: #c8eadf;
-    /* font-size: 28px; */
     transform: translate(-50%, -50%);
 }
 
@@ -307,17 +247,6 @@
     box-sizing: border-box;
 }
 
-/* #main2 {
-    background-color: #c0e1d6;
-    height: 750px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-
 #main2div {
     height: 800px;
     width: 950px;
@@ -325,14 +254,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
-
-#main2text {
-    /* height: 70px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .main2grid {
@@ -354,13 +275,9 @@
 
 #main2text2 {
     height: 20px;
-    /* width: 400px; */
 }
 
-/* .gridtext {
-    height: 100px;
-    width: 300px;
-} */
+
 
 .gridbox {
     font-size: 15px;
@@ -373,7 +290,6 @@
 
 .iconimg {
     height: 60px;
-    /* width: 60px; */
     background-image: linear-gradient(#2ac194, #0e8f85);
     border-radius: 10px;
     display: flex;
@@ -394,16 +310,6 @@
     align-items: center;
     color: white;
     font-size: 20px;
-}
-
-#main3 {
-    /* background-color: #f5f5f5;
-    height: 1000px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
 }
 
 .logo img {
@@ -435,12 +341,9 @@
 }
 
 #main3div-content-text {
-    /* padding-top: 70px;
-    margin-bottom: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 800px; */
     font-size: 35px;
     font-weight: bold;
     flex-wrap: wrap;
@@ -457,16 +360,6 @@
     font-weight: 500;
     background-color: white;
     border-radius: 10px;
-}
-
-#main4 {
-    /* background-color: #032d30;
-    height: 900px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap; */
 }
 
 #main4div {
@@ -487,7 +380,6 @@
 
 #main4text {
     height: 50px;
-    /* width: 600px; */
     font-size: 35px;
     font-weight: 600;
     display: flex;
@@ -516,7 +408,6 @@
 }
 
 .main4gridboxtextonly {
-    /* width: 400px; */
     height: 120px;
     border-radius: 16px;
     background-color: rgba(255, 255, 255, .1);
@@ -529,7 +420,6 @@
 
 .main4gridheading {
     color: #2ac395;
-    /* font-size: 30px; */
 }
 
 .main4gridboxtext {
@@ -538,7 +428,6 @@
 
 .main4gridboxtextonly {
     color: #2ac395;
-    /* font-size: 20px; */
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -558,11 +447,8 @@
     position: relative;
     display: inline-block;
     width: 40px;
-    /* Adjust size as needed */
     height: 40px;
-    /* Adjust size as needed */
     border: 2px solid green;
-    /* Green border */
     border-radius: 10px;
 }
 
@@ -570,15 +456,10 @@
     content: "";
     position: absolute;
     left: 25%;
-    /* Adjust position as needed */
     top: 1px;
-    /* Adjust position as needed */
     transform: rotate(45deg);
-    /* Rotate tick */
     width: 14px;
-    /* Adjust size as needed */
     height: 26px;
-    /* Adjust size as needed */
     border: solid green;
     border-width: 0 5px 5px 0;
     transform-origin: center;
@@ -587,15 +468,6 @@
 
 .custom-checkbox input[type="checkbox"]:checked+label:after {
     visibility: visible;
-}
-
-#main5 {
-    /* height: 1200px;
-    width: 100%;
-    background-color: #c2e5da;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
 }
 
 #mian5div {
@@ -641,13 +513,8 @@
     justify-content: center;
 }
 
-#main5text {
-    /* font-size: 35px;
-    font-weight: bold; */
-}
 
 #main5btn {
-    /* width: 400px; */
     height: 80px;
     font-size: 25px;
     border-radius: 10px;
@@ -681,7 +548,6 @@
 }
 
 #main6text {
-    /* width: 100%; */
     height: 50px;
     font-size: 35px;
     font-weight: bold;
@@ -694,7 +560,6 @@
     padding-top: 5px;
     background-color: white;
     height: 280px;
-    /* width: 600px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -704,7 +569,6 @@
 
 #trainerinfo {
     background-color: #D3EDE7;
-    /* width: 300px; */
     height: 230px;
     border-radius: 10px;
     display: flex;
@@ -715,7 +579,6 @@
 }
 
 #main6trainerinfotext {
-    /* width: 250px; */
     height: 165px;
     font-size: 13px;
 }
@@ -727,24 +590,8 @@
 
 #main6text3 {
     font-size: 25px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
     color: white;
 
-}
-
-
-
-#main7 {
-    /* height: 1500px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #c2e5da;
-    flex-wrap: wrap; */
 }
 
 #main7div {
@@ -775,7 +622,6 @@
 }
 
 #main7left {
-    /* width: 500px; */
     height: 420px;
     border-radius: 10px;
     background-color: white;
@@ -798,7 +644,6 @@
 #main7lefttext1 {
     margin-top: 20px;
     height: 90px;
-    /* width: 350px; */
     font-size: 30px;
     font-weight: bold;
 }
@@ -872,7 +717,6 @@
 }
 
 .main7rightchecktext {
-    /* width: 400px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -882,19 +726,16 @@
 
 .main7rightcheckbox {
     font-size: 13px;
-    /* width: 300px; */
     height: 40px;
 }
 
 #main7right {
-    /* width: 500px; */
     display: flex;
     flex-direction: column;
     height: 350px;
 }
 
 #main7rightdiv {
-    /* width: 400px; */
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -924,17 +765,15 @@
     font-weight: bold;
 }
 
-/* Dropdown container */
 .dropdown {
     position: relative;
     display: inline-block;
+    margin: 5px;
 }
 
-/* Dropdown button */
 .dropbtn {
     width: 650px;
     background-color: #4da59f;
-    /* Green background */
     color: rgb(0, 0, 0);
     padding: 12px;
     font-size: 16px;
@@ -942,7 +781,6 @@
     cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -1003,14 +841,6 @@
     margin-bottom: 20px;
 }
 
-#main8 {
-    width: 100%;
-    height: 200px;
-    background-color: rgb(10, 60, 10);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .main8imges img {
     margin: 5px;
@@ -1025,7 +855,6 @@
 
 .main8text {
     margin-top: 10px;
-    width: 500px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -1050,7 +879,174 @@
 
 }
 
+/* Bootstarp media query */
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    height: 56px;
+    background-color: #34D49A82;
+    border-radius: 10px;    
+}
+
+#mainheading{
+    background-image: linear-gradient(129deg, #2bc495, #0c8b83);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#middlerow{
+    background-color: wheat;
+    height: 500px;
+}
+
+#middleleftdiv{
+    background-color: aqua;
+}
+
+
+#middlerightdiv{
+    background-color: blue;
+}
+
+.dropdowndiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .main5gridbox{
+        height: 150px;
+    }
+
+    .gridbox{
+        height: 180px;
+    }
+
+    #trainerinfoouter{
+        height: 350px;
+
+    }
+
+
+
+} 
+
+@media (max-width: 576px) {
+
+    .main5gridbox{
+        height: 90px;
+    }
+
+    .gridbox{
+        height: 150px;
+        font-size: 15px;
+    }
+
+    .main3div-content{
+        font-size: 15px;
+    }
+
+    #main4text{
+        font-size: 25px;
+    }
+
+    #trainerinfoouter{
+        height: 550px;
+
+    }
+
+    #main6text3{
+        font-size: 20px;
+    }
+
+    #main6text2{
+        font-size: 20px;
+    }
+
+    #main7left{
+        height: 450px;
+    }
+
+    .dropbtn{
+        width: 400px;
+    }
+
+    .dropdown-content a{
+        width: 400px;
+
+    }
+
+} 
+
+@media (max-width: 640px) {
+
+    #trainerinfoouter{
+        height: 450px;
+
+    }
+
+    .dropbtn{
+        width: 440px;
+    }
+
+    .dropdown-content a{
+        width: 440px;
+
+    }
+
+   
+}
+
+@media (max-width: 440px) {
+
+    .dropbtn{
+        width: 300px;
+    }
+
+    .dropdown-content a{
+        width: 300px;
+
+    }
+
+   
+}
+
+@media (max-width: 748px) {
+
+    /* .dropdown-content a{
+        width: 550px;
+    }
+
+    .dropbtn{
+        width: 550px;
+    } */
+
+
+   
+} 
+
+@media (max-width: 415px) {
+
+    #trainerinfoouter{
+        height: 500px;
+
+    }
+
+    #main7left{
+        height: 500px;
+    }
+
+    
+
+} 
 
 
 
